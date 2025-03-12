@@ -1,0 +1,1243 @@
+plate_pair,plate,well,ecotype,site,seed_family,water_potential,cold_stratification,Date,Day
+1,1_A,1_A_E,Iteroparous,I1,I1_2,-1,Not cold stratified,5/3/23,9
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,5/3/23,9
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,5/3/23,9
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,5/8/23,14
+1,1_B,1_B_A,Semelparous,S1,S1_28,0,Not cold stratified,5/8/23,14
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,4/28/23,4
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,5/1/23,7
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,5/1/23,7
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,5/1/23,7
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,5/1/23,7
+1,1_B,1_B_F,Iteroparous,I2,I2_5,0,Not cold stratified,5/1/23,7
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/25/23,1
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/25/23,1
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/25/23,1
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/25/23,1
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/25/23,1
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/26/23,2
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/26/23,2
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/26/23,2
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/26/23,2
+10,10_A,10_A_C,Semelparous,S1,S1_11,0,Cold stratified,4/26/23,2
+10,10_A,10_A_F,Iteroparous,I2,I2_4,-1,Not cold stratified,5/5/23,11
+10,10_B,10_B_F,Semelparous,S2,S2_9,0,Not cold stratified,5/15/23,21
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/26/23,2
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/26/23,2
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/26/23,2
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/26/23,2
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/28/23,4
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/28/23,4
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,4/28/23,4
+11,11_A,11_A_B,Semelparous,S1,S1_15,-0.5,Cold stratified,5/1/23,7
+12,12_A,12_A_D,Iteroparous,I2,I2_11,-0.5,Cold stratified,5/1/23,7
+12,12_A,12_A_D,Iteroparous,I2,I2_11,-0.5,Cold stratified,5/1/23,7
+12,12_A,12_A_D,Iteroparous,I2,I2_11,-0.5,Cold stratified,5/1/23,7
+12,12_B,12_B_F,Semelparous,S1,S1_29,-0.5,Cold stratified,4/28/23,4
+13,13_A,13_A_B,Iteroparous,I1,I1_14,-1,Not cold stratified,5/10/23,16
+13,13_B,13_B_E,Iteroparous,I2,I2_7,-1,Not cold stratified,5/8/23,14
+13,13_B,13_B_E,Iteroparous,I2,I2_7,-1,Not cold stratified,5/12/23,18
+13,13_B,13_B_E,Iteroparous,I2,I2_7,-1,Not cold stratified,5/15/23,21
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,4/26/23,2
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,4/26/23,2
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,4/26/23,2
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,4/28/23,4
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,4/28/23,4
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,5/8/23,14
+14,14_B,14_B_A,Iteroparous,I1,I1_12,0,Cold stratified,5/10/23,16
+14,14_B,14_B_C,Semelparous,S3,S3_11,0,Cold stratified,4/28/23,4
+14,14_B,14_B_C,Semelparous,S3,S3_11,0,Cold stratified,4/28/23,4
+14,14_B,14_B_D,Iteroparous,I2,I2_9,-1,Not cold stratified,5/1/23,7
+14,14_B,14_B_D,Iteroparous,I2,I2_9,-1,Not cold stratified,5/1/23,7
+14,14_B,14_B_D,Iteroparous,I2,I2_9,-1,Not cold stratified,5/1/23,7
+14,14_B,14_B_E,Semelparous,S2,S2_5,0,Not cold stratified,4/28/23,4
+14,14_B,14_B_E,Semelparous,S2,S2_5,0,Not cold stratified,5/1/23,7
+14,14_B,14_B_E,Semelparous,S2,S2_5,0,Not cold stratified,5/3/23,9
+15,15_A,15_A_A,Semelparous,S1,S1_12,-0.5,Not cold stratified,5/1/23,7
+15,15_A,15_A_A,Semelparous,S1,S1_12,-0.5,Not cold stratified,5/1/23,7
+15,15_A,15_A_A,Semelparous,S1,S1_12,-0.5,Not cold stratified,5/1/23,7
+15,15_A,15_A_A,Semelparous,S1,S1_12,-0.5,Not cold stratified,5/1/23,7
+15,15_A,15_A_A,Semelparous,S1,S1_12,-0.5,Not cold stratified,5/1/23,7
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,4/28/23,4
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,5/1/23,7
+15,15_A,15_A_D,Iteroparous,I2,I2_7,-0.5,Cold stratified,5/1/23,7
+15,15_B,15_B_E,Iteroparous,I1,I1_20,-0.5,Not cold stratified,4/28/23,4
+15,15_B,15_B_E,Iteroparous,I1,I1_20,-0.5,Not cold stratified,5/8/23,14
+16,16_A,16_A_D,Iteroparous,I3,I3_5,0,Cold stratified,4/26/23,2
+16,16_A,16_A_D,Iteroparous,I3,I3_5,0,Cold stratified,4/28/23,4
+16,16_A,16_A_D,Iteroparous,I3,I3_5,0,Cold stratified,4/28/23,4
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,4/26/23,2
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,4/26/23,2
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,4/26/23,2
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,4/28/23,4
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,4/28/23,4
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,4/28/23,4
+16,16_A,16_A_E,Semelparous,S1,S1_16,0,Cold stratified,5/5/23,11
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,4/26/23,2
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,4/26/23,2
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,4/26/23,2
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,4/26/23,2
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,4/28/23,4
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,5/3/23,9
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,5/8/23,14
+16,16_B,16_B_A,Semelparous,S2,S2_10,0,Cold stratified,5/10/23,16
+16,16_B,16_B_B,Iteroparous,I1,I1_4,-0.5,Cold stratified,5/3/23,9
+16,16_B,16_B_C,Iteroparous,I2,I2_13,-0.5,Cold stratified,4/28/23,4
+16,16_B,16_B_C,Iteroparous,I2,I2_13,-0.5,Cold stratified,5/1/23,7
+16,16_B,16_B_C,Iteroparous,I2,I2_13,-0.5,Cold stratified,5/1/23,7
+16,16_B,16_B_C,Iteroparous,I2,I2_13,-0.5,Cold stratified,5/1/23,7
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,4/26/23,2
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,4/28/23,4
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,4/28/23,4
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,4/28/23,4
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,4/28/23,4
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,4/28/23,4
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,5/1/23,7
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,5/1/23,7
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,5/1/23,7
+17,17_A,17_A_E,Iteroparous,I1,I1_18,0,Not cold stratified,5/10/23,16
+17,17_B,17_B_A,Semelparous,S2,S2_1,-0.5,Cold stratified,4/26/23,2
+17,17_B,17_B_A,Semelparous,S2,S2_1,-0.5,Cold stratified,4/26/23,2
+17,17_B,17_B_A,Semelparous,S2,S2_1,-0.5,Cold stratified,4/28/23,4
+17,17_B,17_B_A,Semelparous,S2,S2_1,-0.5,Cold stratified,4/28/23,4
+17,17_B,17_B_A,Semelparous,S2,S2_1,-0.5,Cold stratified,4/28/23,4
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,4/28/23,4
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,4/28/23,4
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,4/28/23,4
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,4/28/23,4
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,5/1/23,7
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,5/1/23,7
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,5/1/23,7
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,5/3/23,9
+17,17_B,17_B_E,Iteroparous,I3,I3_1,0,Not cold stratified,5/5/23,11
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,4/28/23,4
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,5/1/23,7
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,5/8/23,14
+18,18_A,18_A_A,Iteroparous,I2,I2_4,-0.5,Cold stratified,5/8/23,14
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/1/23,7
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/3/23,9
+18,18_A,18_A_D,Semelparous,S1,S1_16,-0.5,Not cold stratified,5/3/23,9
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_A,18_A_E,Iteroparous,I1,I1_6,-0.5,Not cold stratified,4/28/23,4
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/26/23,2
+18,18_B,18_B_C,Semelparous,S3,S3_13,0,Cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+18,18_B,18_B_D,Iteroparous,I3,I3_10,0,Not cold stratified,4/28/23,4
+19,19_A,19_A_B,Semelparous,S3,S3_4,-0.5,Cold stratified,4/25/23,1
+19,19_A,19_A_B,Semelparous,S3,S3_4,-0.5,Cold stratified,4/26/23,2
+19,19_A,19_A_B,Semelparous,S3,S3_4,-0.5,Cold stratified,4/26/23,2
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,4/28/23,4
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,4/28/23,4
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,5/1/23,7
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,5/3/23,9
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,5/3/23,9
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,5/8/23,14
+19,19_A,19_A_F,Iteroparous,I3,I3_1,-0.5,Not cold stratified,5/15/23,21
+19,19_B,19_B_C,Semelparous,S1,S1_12,0,Cold stratified,4/26/23,2
+19,19_B,19_B_C,Semelparous,S1,S1_12,0,Cold stratified,4/26/23,2
+19,19_B,19_B_C,Semelparous,S1,S1_12,0,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,4/28/23,4
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,5/1/23,7
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,5/1/23,7
+19,19_B,19_B_D,Iteroparous,I2,I2_1,-0.5,Cold stratified,5/3/23,9
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/26/23,2
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/26/23,2
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/26/23,2
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/28/23,4
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/28/23,4
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/28/23,4
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/28/23,4
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,4/28/23,4
+2,2_B,2_B_A,Iteroparous,I2,I2_7,0,Cold stratified,5/1/23,7
+20,20_A,20_A_A,Semelparous,S1,S1_28,-0.5,Not cold stratified,5/5/23,11
+20,20_A,20_A_A,Semelparous,S1,S1_28,-0.5,Not cold stratified,5/5/23,11
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,4/26/23,2
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,4/26/23,2
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,4/26/23,2
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,5/1/23,7
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,5/1/23,7
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,5/1/23,7
+20,20_A,20_A_C,Iteroparous,I1,I1_2,0,Not cold stratified,5/8/23,14
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,4/28/23,4
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,5/1/23,7
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,5/1/23,7
+20,20_A,20_A_D,Iteroparous,I2,I2_9,0,Not cold stratified,5/3/23,9
+20,20_B,20_B_D,Iteroparous,I3,I3_1,0,Cold stratified,4/26/23,2
+20,20_B,20_B_D,Iteroparous,I3,I3_1,0,Cold stratified,4/26/23,2
+20,20_B,20_B_D,Iteroparous,I3,I3_1,0,Cold stratified,4/28/23,4
+20,20_B,20_B_D,Iteroparous,I3,I3_1,0,Cold stratified,4/28/23,4
+20,20_B,20_B_D,Iteroparous,I3,I3_1,0,Cold stratified,4/28/23,4
+20,20_B,20_B_D,Iteroparous,I3,I3_1,0,Cold stratified,5/1/23,7
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,4/26/23,2
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,4/26/23,2
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,4/26/23,2
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,4/28/23,4
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,4/28/23,4
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,5/3/23,9
+21,21_A,21_A_D,Iteroparous,I1,I1_16,0,Not cold stratified,5/8/23,14
+21,21_A,21_A_E,Semelparous,S3,S3_14,0,Not cold stratified,5/12/23,18
+21,21_A,21_A_F,Semelparous,S2,S2_4,-0.5,Cold stratified,4/26/23,2
+21,21_A,21_A_F,Semelparous,S2,S2_4,-0.5,Cold stratified,4/26/23,2
+21,21_A,21_A_F,Semelparous,S2,S2_4,-0.5,Cold stratified,4/26/23,2
+21,21_A,21_A_F,Semelparous,S2,S2_4,-0.5,Cold stratified,5/5/23,11
+21,21_B,21_B_A,Iteroparous,I3,I3_16,0,Cold stratified,4/28/23,4
+21,21_B,21_B_A,Iteroparous,I3,I3_16,0,Cold stratified,4/28/23,4
+21,21_B,21_B_A,Iteroparous,I3,I3_16,0,Cold stratified,4/28/23,4
+21,21_B,21_B_A,Iteroparous,I3,I3_16,0,Cold stratified,4/28/23,4
+21,21_B,21_B_A,Iteroparous,I3,I3_16,0,Cold stratified,4/28/23,4
+21,21_B,21_B_A,Iteroparous,I3,I3_16,0,Cold stratified,4/28/23,4
+21,21_B,21_B_D,Semelparous,S1,S1_29,0,Cold stratified,4/28/23,4
+21,21_B,21_B_D,Semelparous,S1,S1_29,0,Cold stratified,5/1/23,7
+21,21_B,21_B_E,Iteroparous,I2,I2_1,-1,Not cold stratified,5/3/23,9
+21,21_B,21_B_E,Iteroparous,I2,I2_1,-1,Not cold stratified,5/5/23,11
+21,21_B,21_B_E,Iteroparous,I2,I2_1,-1,Not cold stratified,5/12/23,18
+21,21_B,21_B_E,Iteroparous,I2,I2_1,-1,Not cold stratified,5/12/23,18
+21,21_B,21_B_E,Iteroparous,I2,I2_1,-1,Not cold stratified,5/15/23,21
+21,21_B,21_B_E,Iteroparous,I2,I2_1,-1,Not cold stratified,5/15/23,21
+22,22_A,22_A_B,Semelparous,S3,S3_7,-0.5,Cold stratified,4/25/23,1
+22,22_A,22_A_B,Semelparous,S3,S3_7,-0.5,Cold stratified,4/25/23,1
+22,22_A,22_A_B,Semelparous,S3,S3_7,-0.5,Cold stratified,4/25/23,1
+22,22_A,22_A_B,Semelparous,S3,S3_7,-0.5,Cold stratified,4/28/23,4
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,4/28/23,4
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/1/23,7
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/1/23,7
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/1/23,7
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/1/23,7
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/1/23,7
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/3/23,9
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/3/23,9
+22,22_A,22_A_C,Iteroparous,I2,I2_9,-0.5,Not cold stratified,5/8/23,14
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,4/28/23,4
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,4/28/23,4
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,4/28/23,4
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,4/28/23,4
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,4/28/23,4
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,5/1/23,7
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,5/1/23,7
+22,22_B,22_B_A,Semelparous,S1,S1_15,0,Not cold stratified,5/5/23,11
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,4/28/23,4
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,4/28/23,4
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,4/28/23,4
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,4/28/23,4
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,4/28/23,4
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,5/1/23,7
+22,22_B,22_B_F,Semelparous,S2,S2_9,-0.5,Cold stratified,5/1/23,7
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,4/26/23,2
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,4/28/23,4
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,4/28/23,4
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,4/28/23,4
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,5/1/23,7
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,5/1/23,7
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,5/1/23,7
+23,23_A,23_A_D,Semelparous,S1,S1_11,0,Not cold stratified,5/8/23,14
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/3/23,9
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/3/23,9
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/3/23,9
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/3/23,9
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/3/23,9
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/8/23,14
+23,23_A,23_A_E,Iteroparous,I2,I2_5,-1,Not cold stratified,5/8/23,14
+23,23_B,23_B_C,Iteroparous,I1,I1_16,-0.5,Not cold stratified,4/28/23,4
+23,23_B,23_B_C,Iteroparous,I1,I1_16,-0.5,Not cold stratified,5/3/23,9
+23,23_B,23_B_C,Iteroparous,I1,I1_16,-0.5,Not cold stratified,5/3/23,9
+23,23_B,23_B_C,Iteroparous,I1,I1_16,-0.5,Not cold stratified,5/3/23,9
+23,23_B,23_B_D,Iteroparous,I3,I3_10,0,Cold stratified,4/26/23,2
+23,23_B,23_B_D,Iteroparous,I3,I3_10,0,Cold stratified,4/26/23,2
+23,23_B,23_B_D,Iteroparous,I3,I3_10,0,Cold stratified,4/26/23,2
+23,23_B,23_B_D,Iteroparous,I3,I3_10,0,Cold stratified,4/26/23,2
+23,23_B,23_B_D,Iteroparous,I3,I3_10,0,Cold stratified,5/1/23,7
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/1/23,7
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/1/23,7
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/1/23,7
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/1/23,7
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/1/23,7
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/3/23,9
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/3/23,9
+24,24_A,24_A_A,Iteroparous,I1,I1_12,-0.5,Not cold stratified,5/5/23,11
+24,24_A,24_A_F,Iteroparous,I2,I2_10,-1,Not cold stratified,5/3/23,9
+25,25_A,25_A_E,Iteroparous,I1,I1_12,-0.5,Cold stratified,4/28/23,4
+25,25_A,25_A_E,Iteroparous,I1,I1_12,-0.5,Cold stratified,4/28/23,4
+25,25_A,25_A_E,Iteroparous,I1,I1_12,-0.5,Cold stratified,5/1/23,7
+25,25_A,25_A_E,Iteroparous,I1,I1_12,-0.5,Cold stratified,5/1/23,7
+25,25_A,25_A_E,Iteroparous,I1,I1_12,-0.5,Cold stratified,5/1/23,7
+25,25_A,25_A_E,Iteroparous,I1,I1_12,-0.5,Cold stratified,5/1/23,7
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,4/28/23,4
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,4/28/23,4
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,4/28/23,4
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,5/1/23,7
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,5/1/23,7
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,5/1/23,7
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,5/1/23,7
+25,25_B,25_B_B,Iteroparous,I2,I2_4,-0.5,Not cold stratified,5/1/23,7
+26,26_A,26_A_B,Iteroparous,I3,I3_19,0,Cold stratified,4/28/23,4
+26,26_A,26_A_B,Iteroparous,I3,I3_19,0,Cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,4/28/23,4
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,4/28/23,4
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,4/28/23,4
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/1/23,7
+26,26_B,26_B_E,Iteroparous,I2,I2_5,-0.5,Not cold stratified,5/12/23,18
+27,27_A,27_A_D,Semelparous,S2,S2_1,0,Not cold stratified,5/12/23,18
+27,27_A,27_A_D,Semelparous,S2,S2_1,0,Not cold stratified,5/12/23,18
+27,27_A,27_A_F,Semelparous,S1,S1_12,0,Not cold stratified,4/28/23,4
+27,27_A,27_A_F,Semelparous,S1,S1_12,0,Not cold stratified,4/28/23,4
+27,27_A,27_A_F,Semelparous,S1,S1_12,0,Not cold stratified,5/8/23,14
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/26/23,2
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/28/23,4
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,4/28/23,4
+27,27_B,27_B_B,Iteroparous,I2,I2_1,0,Cold stratified,5/1/23,7
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,4/28/23,4
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,4/28/23,4
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,4/28/23,4
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,4/28/23,4
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,5/1/23,7
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,5/1/23,7
+28,28_A,28_A_A,Iteroparous,I2,I2_12,0,Not cold stratified,5/1/23,7
+28,28_B,28_B_D,Iteroparous,I3,I3_16,-0.5,Not cold stratified,4/28/23,4
+28,28_B,28_B_D,Iteroparous,I3,I3_16,-0.5,Not cold stratified,5/1/23,7
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,4/28/23,4
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,4/28/23,4
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,4/28/23,4
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,4/28/23,4
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,4/28/23,4
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,5/1/23,7
+28,28_B,28_B_F,Iteroparous,I1,I1_19,0,Cold stratified,5/1/23,7
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/25/23,1
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/26/23,2
+29,29_A,29_A_B,Semelparous,S3,S3_7,0,Cold stratified,4/26/23,2
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/26/23,2
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/26/23,2
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,4/28/23,4
+29,29_A,29_A_C,Iteroparous,I2,I2_13,0,Cold stratified,5/1/23,7
+29,29_B,29_B_B,Semelparous,S1,S1_10,-0.5,Cold stratified,5/1/23,7
+29,29_B,29_B_B,Semelparous,S1,S1_10,-0.5,Cold stratified,5/1/23,7
+29,29_B,29_B_B,Semelparous,S1,S1_10,-0.5,Cold stratified,5/3/23,9
+3,3_A,3_A_B,Iteroparous,I3,I3_20,0,Not cold stratified,4/28/23,4
+3,3_A,3_A_B,Iteroparous,I3,I3_20,0,Not cold stratified,4/28/23,4
+3,3_A,3_A_B,Iteroparous,I3,I3_20,0,Not cold stratified,4/28/23,4
+3,3_A,3_A_B,Iteroparous,I3,I3_20,0,Not cold stratified,4/28/23,4
+3,3_A,3_A_B,Iteroparous,I3,I3_20,0,Not cold stratified,5/1/23,7
+3,3_A,3_A_B,Iteroparous,I3,I3_20,0,Not cold stratified,5/3/23,9
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+3,3_B,3_B_F,Iteroparous,I2,I2_5,-0.5,Cold stratified,4/28/23,4
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/26/23,2
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/26/23,2
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/26/23,2
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/26/23,2
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/28/23,4
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/28/23,4
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/28/23,4
+30,30_A,30_A_B,Iteroparous,I1,I1_8,0,Cold stratified,4/28/23,4
+30,30_A,30_A_C,Semelparous,S2,S2_10,-0.5,Cold stratified,4/26/23,2
+30,30_A,30_A_C,Semelparous,S2,S2_10,-0.5,Cold stratified,4/26/23,2
+30,30_A,30_A_C,Semelparous,S2,S2_10,-0.5,Cold stratified,4/26/23,2
+30,30_A,30_A_C,Semelparous,S2,S2_10,-0.5,Cold stratified,4/28/23,4
+30,30_A,30_A_C,Semelparous,S2,S2_10,-0.5,Cold stratified,4/28/23,4
+30,30_A,30_A_F,Semelparous,S3,S3_15,-1,Cold stratified,5/1/23,7
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,4/26/23,2
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,4/26/23,2
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,4/26/23,2
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,4/28/23,4
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,4/28/23,4
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,5/1/23,7
+30,30_B,30_B_B,Iteroparous,I2,I2_11,0,Cold stratified,5/3/23,9
+31,31_A,31_A_B,Iteroparous,I2,I2_9,-1,Cold stratified,5/3/23,9
+31,31_A,31_A_B,Iteroparous,I2,I2_9,-1,Cold stratified,5/8/23,14
+31,31_A,31_A_B,Iteroparous,I2,I2_9,-1,Cold stratified,5/10/23,16
+31,31_A,31_A_B,Iteroparous,I2,I2_9,-1,Cold stratified,5/10/23,16
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/26/23,2
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/26/23,2
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/26/23,2
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/26/23,2
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/26/23,2
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/28/23,4
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,4/28/23,4
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,5/1/23,7
+31,31_A,31_A_C,Iteroparous,I1,I1_16,0,Cold stratified,5/1/23,7
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/1/23,7
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/1/23,7
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/3/23,9
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/8/23,14
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/8/23,14
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/8/23,14
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/8/23,14
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/8/23,14
+31,31_A,31_A_E,Semelparous,S1,S1_15,-1,Not cold stratified,5/8/23,14
+31,31_B,31_B_B,Semelparous,S3,S3_20,0,Cold stratified,4/26/23,2
+31,31_B,31_B_B,Semelparous,S3,S3_20,0,Cold stratified,4/26/23,2
+31,31_B,31_B_B,Semelparous,S3,S3_20,0,Cold stratified,4/26/23,2
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,4/28/23,4
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/1/23,7
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/1/23,7
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/1/23,7
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/1/23,7
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/1/23,7
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/3/23,9
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/3/23,9
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/5/23,11
+32,32_A,32_A_C,Iteroparous,I2,I2_13,0,Not cold stratified,5/5/23,11
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/25/23,1
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/25/23,1
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/26/23,2
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/26/23,2
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/26/23,2
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/26/23,2
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/26/23,2
+32,32_B,32_B_E,Semelparous,S3,S3_2,0,Cold stratified,4/28/23,4
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,4/28/23,4
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,4/28/23,4
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,4/28/23,4
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,4/28/23,4
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,5/1/23,7
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,5/1/23,7
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,5/1/23,7
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,5/1/23,7
+33,33_A,33_A_B,Semelparous,S1,S1_11,-0.5,Not cold stratified,5/10/23,16
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/25/23,1
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/25/23,1
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/25/23,1
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_C,Semelparous,S3,S3_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_E,Iteroparous,I1,I1_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_E,Iteroparous,I1,I1_4,0,Cold stratified,4/26/23,2
+33,33_B,33_B_E,Iteroparous,I1,I1_4,0,Cold stratified,4/28/23,4
+33,33_B,33_B_E,Iteroparous,I1,I1_4,0,Cold stratified,5/1/23,7
+33,33_B,33_B_E,Iteroparous,I1,I1_4,0,Cold stratified,5/3/23,9
+34,34_A,34_A_B,Iteroparous,I2,I2_7,-1,Cold stratified,5/1/23,7
+34,34_A,34_A_B,Iteroparous,I2,I2_7,-1,Cold stratified,5/15/23,21
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,4/26/23,2
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,4/26/23,2
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,4/26/23,2
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,4/26/23,2
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,4/28/23,4
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,5/1/23,7
+34,34_A,34_A_F,Semelparous,S1,S1_2,0,Cold stratified,5/1/23,7
+34,34_B,34_B_E,Semelparous,S3,S3_7,0,Not cold stratified,5/1/23,7
+34,34_B,34_B_E,Semelparous,S3,S3_7,0,Not cold stratified,5/1/23,7
+34,34_B,34_B_E,Semelparous,S3,S3_7,0,Not cold stratified,5/1/23,7
+34,34_B,34_B_E,Semelparous,S3,S3_7,0,Not cold stratified,5/1/23,7
+34,34_B,34_B_E,Semelparous,S3,S3_7,0,Not cold stratified,5/1/23,7
+35,35_A,35_A_B,Semelparous,S3,S3_11,0,Not cold stratified,5/1/23,7
+35,35_A,35_A_B,Semelparous,S3,S3_11,0,Not cold stratified,5/1/23,7
+35,35_A,35_A_B,Semelparous,S3,S3_11,0,Not cold stratified,5/1/23,7
+35,35_A,35_A_B,Semelparous,S3,S3_11,0,Not cold stratified,5/1/23,7
+35,35_A,35_A_D,Semelparous,S2,S2_5,-1,Not cold stratified,4/26/23,2
+35,35_A,35_A_D,Semelparous,S2,S2_5,-1,Not cold stratified,5/1/23,7
+35,35_A,35_A_E,Iteroparous,I1,I1_18,-0.5,Not cold stratified,4/28/23,4
+35,35_A,35_A_E,Iteroparous,I1,I1_18,-0.5,Not cold stratified,4/28/23,4
+35,35_A,35_A_E,Iteroparous,I1,I1_18,-0.5,Not cold stratified,5/15/23,21
+35,35_A,35_A_F,Semelparous,S1,S1_29,-0.5,Not cold stratified,5/3/23,9
+35,35_A,35_A_F,Semelparous,S1,S1_29,-0.5,Not cold stratified,5/8/23,14
+35,35_B,35_B_B,Iteroparous,I2,I2_1,-0.5,Not cold stratified,4/28/23,4
+35,35_B,35_B_B,Iteroparous,I2,I2_1,-0.5,Not cold stratified,4/28/23,4
+35,35_B,35_B_B,Iteroparous,I2,I2_1,-0.5,Not cold stratified,5/3/23,9
+35,35_B,35_B_B,Iteroparous,I2,I2_1,-0.5,Not cold stratified,5/3/23,9
+35,35_B,35_B_B,Iteroparous,I2,I2_1,-0.5,Not cold stratified,5/3/23,9
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/26/23,2
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/26/23,2
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/26/23,2
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_A,36_A_C,Iteroparous,I2,I2_16,0,Not cold stratified,4/28/23,4
+36,36_B,36_B_A,Semelparous,S1,S1_10,0,Not cold stratified,4/28/23,4
+36,36_B,36_B_A,Semelparous,S1,S1_10,0,Not cold stratified,4/28/23,4
+36,36_B,36_B_E,Iteroparous,I1,I1_18,-0.5,Cold stratified,4/28/23,4
+36,36_B,36_B_E,Iteroparous,I1,I1_18,-0.5,Cold stratified,4/28/23,4
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/1/23,7
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/1/23,7
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/1/23,7
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/1/23,7
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/1/23,7
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/3/23,9
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/8/23,14
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/8/23,14
+37,37_A,37_A_B,Iteroparous,I1,I1_8,-0.5,Not cold stratified,5/10/23,16
+37,37_B,37_B_B,Semelparous,S2,S2_6,-1,Cold stratified,5/12/23,18
+37,37_B,37_B_E,Semelparous,S1,S1_4,-1,Cold stratified,4/28/23,4
+37,37_B,37_B_E,Semelparous,S1,S1_4,-1,Cold stratified,4/28/23,4
+37,37_B,37_B_E,Semelparous,S1,S1_4,-1,Cold stratified,5/1/23,7
+37,37_B,37_B_E,Semelparous,S1,S1_4,-1,Cold stratified,5/1/23,7
+37,37_B,37_B_E,Semelparous,S1,S1_4,-1,Cold stratified,5/3/23,9
+37,37_B,37_B_E,Semelparous,S1,S1_4,-1,Cold stratified,5/8/23,14
+37,37_B,37_B_F,Iteroparous,I3,I3_14,-0.5,Not cold stratified,5/1/23,7
+37,37_B,37_B_F,Iteroparous,I3,I3_14,-0.5,Not cold stratified,5/10/23,16
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,4/28/23,4
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,4/28/23,4
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,4/28/23,4
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,4/28/23,4
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,4/28/23,4
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,5/1/23,7
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,5/1/23,7
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,5/3/23,9
+38,38_A,38_A_A,Semelparous,S1,S1_16,-0.5,Cold stratified,5/3/23,9
+38,38_A,38_A_B,Semelparous,S3,S3_6,-0.5,Not cold stratified,5/15/23,21
+38,38_A,38_A_B,Semelparous,S3,S3_6,-0.5,Not cold stratified,5/15/23,21
+38,38_A,38_A_C,Iteroparous,I3,I3_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_C,Iteroparous,I3,I3_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_C,Iteroparous,I3,I3_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_C,Iteroparous,I3,I3_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_C,Iteroparous,I3,I3_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_C,Iteroparous,I3,I3_19,0,Not cold stratified,5/8/23,14
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,4/26/23,2
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_A,38_A_F,Iteroparous,I1,I1_19,0,Not cold stratified,5/1/23,7
+38,38_B,38_B_A,Semelparous,S2,S2_8,-1,Cold stratified,5/12/23,18
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,4/28/23,4
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,5/1/23,7
+38,38_B,38_B_D,Iteroparous,I2,I2_1,0,Not cold stratified,5/1/23,7
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/26/23,2
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/26/23,2
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,4/28/23,4
+39,39_A,39_A_B,Iteroparous,I2,I2_10,0,Cold stratified,5/12/23,18
+39,39_A,39_A_C,Semelparous,S1,S1_2,0,Not cold stratified,4/28/23,4
+39,39_A,39_A_C,Semelparous,S1,S1_2,0,Not cold stratified,4/28/23,4
+39,39_A,39_A_C,Semelparous,S1,S1_2,0,Not cold stratified,5/1/23,7
+39,39_A,39_A_C,Semelparous,S1,S1_2,0,Not cold stratified,5/8/23,14
+39,39_A,39_A_F,Iteroparous,I3,I3_20,-0.5,Cold stratified,5/1/23,7
+39,39_A,39_A_F,Iteroparous,I3,I3_20,-0.5,Cold stratified,5/1/23,7
+39,39_A,39_A_F,Iteroparous,I3,I3_20,-0.5,Cold stratified,5/1/23,7
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,4/28/23,4
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,4/28/23,4
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,4/28/23,4
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,4/28/23,4
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,4/28/23,4
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,5/1/23,7
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,5/3/23,9
+39,39_B,39_B_C,Iteroparous,I1,I1_2,-0.5,Not cold stratified,5/8/23,14
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/25/23,1
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/26/23,2
+39,39_B,39_B_F,Semelparous,S3,S3_15,0,Cold stratified,4/26/23,2
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/25/23,1
+4,4_A,4_A_D,Semelparous,S2,S2_1,0,Cold stratified,4/26/23,2
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,4/28/23,4
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,4/28/23,4
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,4/28/23,4
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/1/23,7
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/1/23,7
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/1/23,7
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/1/23,7
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/1/23,7
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/1/23,7
+4,4_B,4_B_C,Iteroparous,I1,I1_14,0,Not cold stratified,5/10/23,16
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,4/28/23,4
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,4/28/23,4
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,4/28/23,4
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,4/28/23,4
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,5/1/23,7
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,5/1/23,7
+40,40_B,40_B_A,Semelparous,S1,S1_4,-0.5,Not cold stratified,5/1/23,7
+40,40_B,40_B_B,Iteroparous,I3,I3_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_B,Iteroparous,I3,I3_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_B,Iteroparous,I3,I3_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_B,Iteroparous,I3,I3_16,-0.5,Cold stratified,5/1/23,7
+40,40_B,40_B_B,Iteroparous,I3,I3_16,-0.5,Cold stratified,5/10/23,16
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/26/23,2
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+40,40_B,40_B_E,Iteroparous,I2,I2_16,-0.5,Cold stratified,4/28/23,4
+41,41_A,41_A_C,Semelparous,S1,S1_4,-1,Not cold stratified,5/3/23,9
+41,41_B,41_B_A,Semelparous,S2,S2_4,0,Not cold stratified,5/1/23,7
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,4/28/23,4
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,4/28/23,4
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,4/28/23,4
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,5/1/23,7
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,5/1/23,7
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,5/1/23,7
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,5/1/23,7
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,5/1/23,7
+41,41_B,41_B_E,Iteroparous,I2,I2_12,-0.5,Not cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+41,41_B,41_B_F,Iteroparous,I1,I1_14,0,Cold stratified,5/1/23,7
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_B,Iteroparous,I1,I1_2,0,Cold stratified,4/26/23,2
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/25/23,1
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/25/23,1
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/25/23,1
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/25/23,1
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/26/23,2
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/26/23,2
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/26/23,2
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/26/23,2
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/26/23,2
+42,42_A,42_A_D,Semelparous,S3,S3_14,0,Cold stratified,4/26/23,2
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/1/23,7
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/1/23,7
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/1/23,7
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/3/23,9
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/5/23,11
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/8/23,14
+42,42_A,42_A_F,Semelparous,S1,S1_2,-0.5,Not cold stratified,5/10/23,16
+42,42_B,42_B_A,Iteroparous,I3,I3_15,0,Not cold stratified,4/28/23,4
+42,42_B,42_B_A,Iteroparous,I3,I3_15,0,Not cold stratified,5/1/23,7
+42,42_B,42_B_B,Semelparous,S2,S2_7,-0.5,Cold stratified,4/26/23,2
+42,42_B,42_B_B,Semelparous,S2,S2_7,-0.5,Cold stratified,5/15/23,21
+42,42_B,42_B_B,Semelparous,S2,S2_7,-0.5,Cold stratified,5/15/23,21
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/25/23,1
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_A,43_A_F,Semelparous,S2,S2_3,0,Cold stratified,4/26/23,2
+43,43_B,43_B_A,Iteroparous,I3,I3_6,-1,Not cold stratified,5/1/23,7
+43,43_B,43_B_A,Iteroparous,I3,I3_6,-1,Not cold stratified,5/1/23,7
+43,43_B,43_B_A,Iteroparous,I3,I3_6,-1,Not cold stratified,5/1/23,7
+43,43_B,43_B_A,Iteroparous,I3,I3_6,-1,Not cold stratified,5/1/23,7
+43,43_B,43_B_A,Iteroparous,I3,I3_6,-1,Not cold stratified,5/3/23,9
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,4/28/23,4
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,4/28/23,4
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,5/1/23,7
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,5/1/23,7
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,5/1/23,7
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,5/1/23,7
+44,44_A,44_A_A,Semelparous,S1,S1_15,-0.5,Not cold stratified,5/12/23,18
+44,44_A,44_A_E,Semelparous,S2,S2_3,0,Not cold stratified,4/26/23,2
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,4/28/23,4
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/1/23,7
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/1/23,7
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/1/23,7
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/1/23,7
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/3/23,9
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/3/23,9
+44,44_B,44_B_E,Iteroparous,I1,I1_6,-0.5,Cold stratified,5/3/23,9
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,4/28/23,4
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,4/28/23,4
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,4/28/23,4
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,4/28/23,4
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,5/1/23,7
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,5/1/23,7
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,5/1/23,7
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,5/1/23,7
+44,44_B,44_B_F,Iteroparous,I2,I2_11,0,Not cold stratified,5/5/23,11
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/25/23,1
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/25/23,1
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/26/23,2
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/26/23,2
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/26/23,2
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/26/23,2
+45,45_A,45_A_A,Semelparous,S3,S3_6,0,Cold stratified,4/26/23,2
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_C,Semelparous,S1,S1_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,4/28/23,4
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,5/1/23,7
+45,45_A,45_A_E,Iteroparous,I3,I3_16,0,Not cold stratified,5/3/23,9
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,4/26/23,2
+45,45_B,45_B_A,Iteroparous,I2,I2_16,0,Cold stratified,5/1/23,7
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,4/26/23,2
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,4/26/23,2
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,4/26/23,2
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,4/28/23,4
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,5/1/23,7
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,5/1/23,7
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,5/1/23,7
+45,45_B,45_B_B,Iteroparous,I1,I1_20,0,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/1/23,7
+46,46_B,46_B_C,Iteroparous,I2,I2_13,-0.5,Not cold stratified,5/3/23,9
+46,46_B,46_B_E,Semelparous,S2,S2_6,0,Not cold stratified,5/8/23,14
+46,46_B,46_B_E,Semelparous,S2,S2_6,0,Not cold stratified,5/12/23,18
+46,46_B,46_B_E,Semelparous,S2,S2_6,0,Not cold stratified,5/15/23,21
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/26/23,2
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/26/23,2
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/26/23,2
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/26/23,2
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/26/23,2
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/28/23,4
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/28/23,4
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/28/23,4
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,4/28/23,4
+47,47_A,47_A_B,Iteroparous,I2,I2_9,0,Cold stratified,5/1/23,7
+47,47_B,47_B_A,Iteroparous,I1,I1_20,-0.5,Cold stratified,4/26/23,2
+47,47_B,47_B_A,Iteroparous,I1,I1_20,-0.5,Cold stratified,4/28/23,4
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/26/23,2
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/26/23,2
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/26/23,2
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/26/23,2
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/26/23,2
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/26/23,2
+47,47_B,47_B_E,Semelparous,S1,S1_10,0,Cold stratified,4/28/23,4
+47,47_B,47_B_F,Iteroparous,I3,I3_19,-0.5,Cold stratified,4/28/23,4
+48,48_A,48_A_C,Iteroparous,I3,I3_19,-0.5,Not cold stratified,5/1/23,7
+48,48_A,48_A_C,Iteroparous,I3,I3_19,-0.5,Not cold stratified,5/1/23,7
+48,48_A,48_A_D,Semelparous,S1,S1_11,-1,Not cold stratified,5/8/23,14
+48,48_A,48_A_D,Semelparous,S1,S1_11,-1,Not cold stratified,5/10/23,16
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,4/26/23,2
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,4/28/23,4
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,4/28/23,4
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,5/1/23,7
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,5/1/23,7
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,5/1/23,7
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,5/1/23,7
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,5/1/23,7
+48,48_B,48_B_A,Iteroparous,I1,I1_8,0,Not cold stratified,5/1/23,7
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,4/28/23,4
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,4/28/23,4
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/1/23,7
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/1/23,7
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/1/23,7
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/3/23,9
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/3/23,9
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/3/23,9
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/3/23,9
+48,48_B,48_B_B,Iteroparous,I2,I2_12,-0.5,Cold stratified,5/5/23,11
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/26/23,2
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/26/23,2
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/28/23,4
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/28/23,4
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/28/23,4
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/28/23,4
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,4/28/23,4
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,5/1/23,7
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,5/1/23,7
+49,49_A,49_A_B,Semelparous,S1,S1_4,0,Not cold stratified,5/1/23,7
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,4/28/23,4
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/1/23,7
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/1/23,7
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/1/23,7
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/1/23,7
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/3/23,9
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/3/23,9
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/3/23,9
+49,49_A,49_A_E,Iteroparous,I1,I1_19,-0.5,Cold stratified,5/5/23,11
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/25/23,1
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/25/23,1
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_A,Semelparous,S2,S2_8,0,Cold stratified,4/26/23,2
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_B,Semelparous,S1,S1_28,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,4/28/23,4
+5,5_A,5_A_C,Iteroparous,I2,I2_9,-0.5,Cold stratified,5/1/23,7
+5,5_B,5_B_B,Iteroparous,I3,I3_5,0,Not cold stratified,5/1/23,7
+5,5_B,5_B_B,Iteroparous,I3,I3_5,0,Not cold stratified,5/3/23,9
+5,5_B,5_B_B,Iteroparous,I3,I3_5,0,Not cold stratified,5/5/23,11
+5,5_B,5_B_F,Iteroparous,I1,I1_12,-1,Cold stratified,4/28/23,4
+50,50_A,50_A_C,Iteroparous,I2,I2_11,-0.5,Not cold stratified,4/28/23,4
+50,50_A,50_A_C,Iteroparous,I2,I2_11,-0.5,Not cold stratified,5/1/23,7
+50,50_A,50_A_C,Iteroparous,I2,I2_11,-0.5,Not cold stratified,5/1/23,7
+50,50_A,50_A_C,Iteroparous,I2,I2_11,-0.5,Not cold stratified,5/1/23,7
+50,50_A,50_A_C,Iteroparous,I2,I2_11,-0.5,Not cold stratified,5/1/23,7
+50,50_B,50_B_C,Semelparous,S3,S3_20,-0.5,Not cold stratified,5/1/23,7
+50,50_B,50_B_C,Semelparous,S3,S3_20,-0.5,Not cold stratified,5/1/23,7
+50,50_B,50_B_C,Semelparous,S3,S3_20,-0.5,Not cold stratified,5/3/23,9
+50,50_B,50_B_C,Semelparous,S3,S3_20,-0.5,Not cold stratified,5/3/23,9
+50,50_B,50_B_C,Semelparous,S3,S3_20,-0.5,Not cold stratified,5/3/23,9
+50,50_B,50_B_C,Semelparous,S3,S3_20,-0.5,Not cold stratified,5/5/23,11
+50,50_B,50_B_E,Iteroparous,I3,I3_14,0,Not cold stratified,4/28/23,4
+50,50_B,50_B_E,Iteroparous,I3,I3_14,0,Not cold stratified,4/28/23,4
+50,50_B,50_B_E,Iteroparous,I3,I3_14,0,Not cold stratified,4/28/23,4
+50,50_B,50_B_E,Iteroparous,I3,I3_14,0,Not cold stratified,5/10/23,16
+51,51_A,51_A_D,Semelparous,S2,S2_3,-0.5,Cold stratified,4/26/23,2
+51,51_A,51_A_D,Semelparous,S2,S2_3,-0.5,Cold stratified,4/26/23,2
+51,51_A,51_A_D,Semelparous,S2,S2_3,-0.5,Cold stratified,4/26/23,2
+51,51_A,51_A_D,Semelparous,S2,S2_3,-0.5,Cold stratified,4/28/23,4
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/26/23,2
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/26/23,2
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/26/23,2
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/26/23,2
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/26/23,2
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/26/23,2
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/28/23,4
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/28/23,4
+51,51_B,51_B_A,Iteroparous,I1,I1_6,0,Not cold stratified,4/28/23,4
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,4/28/23,4
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,5/1/23,7
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,5/1/23,7
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,5/1/23,7
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,5/5/23,11
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,5/8/23,14
+52,52_A,52_A_E,Iteroparous,I1,I1_12,0,Not cold stratified,5/10/23,16
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/26/23,2
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/26/23,2
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/26/23,2
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/26/23,2
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/28/23,4
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/28/23,4
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/28/23,4
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,4/28/23,4
+52,52_A,52_A_F,Semelparous,S1,S1_4,-0.5,Cold stratified,5/1/23,7
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,4/26/23,2
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,4/28/23,4
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,4/28/23,4
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,4/28/23,4
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,5/1/23,7
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,5/1/23,7
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,5/1/23,7
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,5/1/23,7
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,5/1/23,7
+52,52_B,52_B_A,Iteroparous,I2,I2_4,0,Not cold stratified,5/1/23,7
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/26/23,2
+53,53_A,53_A_C,Semelparous,S1,S1_4,0,Cold stratified,4/28/23,4
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/25/23,1
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/25/23,1
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/25/23,1
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/25/23,1
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/25/23,1
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/25/23,1
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/26/23,2
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/26/23,2
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/26/23,2
+53,53_A,53_A_D,Semelparous,S2,S2_9,0,Cold stratified,4/26/23,2
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/1/23,7
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/1/23,7
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/1/23,7
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/1/23,7
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/1/23,7
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/3/23,9
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/3/23,9
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/3/23,9
+53,53_A,53_A_E,Iteroparous,I1,I1_14,-0.5,Not cold stratified,5/3/23,9
+53,53_B,53_B_A,Iteroparous,I3,I3_13,0,Not cold stratified,5/12/23,18
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,4/26/23,2
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,4/28/23,4
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,4/28/23,4
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_A,Iteroparous,I1,I1_4,0,Not cold stratified,5/1/23,7
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,4/28/23,4
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,4/28/23,4
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,4/28/23,4
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,5/1/23,7
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,5/1/23,7
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,5/1/23,7
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,5/1/23,7
+54,54_B,54_B_E,Iteroparous,I2,I2_10,-0.5,Not cold stratified,5/3/23,9
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/26/23,2
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/28/23,4
+55,55_A,55_A_A,Iteroparous,I2,I2_12,0,Cold stratified,4/28/23,4
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/25/23,1
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_A,Semelparous,S2,S2_7,0,Cold stratified,4/26/23,2
+55,55_B,55_B_F,Semelparous,S1,S1_10,-0.5,Not cold stratified,5/1/23,7
+55,55_B,55_B_F,Semelparous,S1,S1_10,-0.5,Not cold stratified,5/1/23,7
+55,55_B,55_B_F,Semelparous,S1,S1_10,-0.5,Not cold stratified,5/1/23,7
+55,55_B,55_B_F,Semelparous,S1,S1_10,-0.5,Not cold stratified,5/3/23,9
+56,56_A,56_A_A,Iteroparous,I3,I3_6,0,Not cold stratified,4/28/23,4
+56,56_A,56_A_A,Iteroparous,I3,I3_6,0,Not cold stratified,4/28/23,4
+56,56_A,56_A_A,Iteroparous,I3,I3_6,0,Not cold stratified,4/28/23,4
+56,56_A,56_A_A,Iteroparous,I3,I3_6,0,Not cold stratified,5/3/23,9
+56,56_A,56_A_A,Iteroparous,I3,I3_6,0,Not cold stratified,5/5/23,11
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/25/23,1
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/25/23,1
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/25/23,1
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/25/23,1
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/26/23,2
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/26/23,2
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/26/23,2
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/26/23,2
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/26/23,2
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,4/26/23,2
+56,56_A,56_A_B,Semelparous,S2,S2_5,0,Cold stratified,5/3/23,9
+56,56_A,56_A_F,Semelparous,S3,S3_16,-1,Not cold stratified,5/3/23,9
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_C,Iteroparous,I1,I1_19,-0.5,Not cold stratified,5/1/23,7
+56,56_B,56_B_F,Semelparous,S1,S1_11,-0.5,Cold stratified,4/26/23,2
+56,56_B,56_B_F,Semelparous,S1,S1_11,-0.5,Cold stratified,4/26/23,2
+56,56_B,56_B_F,Semelparous,S1,S1_11,-0.5,Cold stratified,4/28/23,4
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/1/23,7
+57,57_A,57_A_A,Iteroparous,I2,I2_7,-0.5,Not cold stratified,5/3/23,9
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/25/23,1
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/26/23,2
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/26/23,2
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/26/23,2
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/26/23,2
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/26/23,2
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/26/23,2
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/28/23,4
+57,57_A,57_A_D,Semelparous,S2,S2_6,0,Cold stratified,4/28/23,4
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/26/23,2
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/26/23,2
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/26/23,2
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/26/23,2
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/26/23,2
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/26/23,2
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/28/23,4
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,4/28/23,4
+57,57_B,57_B_A,Iteroparous,I3,I3_20,0,Cold stratified,5/3/23,9
+57,57_B,57_B_C,Iteroparous,I1,I1_14,-0.5,Cold stratified,5/1/23,7
+57,57_B,57_B_C,Iteroparous,I1,I1_14,-0.5,Cold stratified,5/1/23,7
+57,57_B,57_B_C,Iteroparous,I1,I1_14,-0.5,Cold stratified,5/3/23,9
+57,57_B,57_B_C,Iteroparous,I1,I1_14,-0.5,Cold stratified,5/3/23,9
+57,57_B,57_B_E,Semelparous,S1,S1_15,0,Cold stratified,4/26/23,2
+57,57_B,57_B_E,Semelparous,S1,S1_15,0,Cold stratified,4/26/23,2
+57,57_B,57_B_E,Semelparous,S1,S1_15,0,Cold stratified,5/1/23,7
+57,57_B,57_B_E,Semelparous,S1,S1_15,0,Cold stratified,5/1/23,7
+57,57_B,57_B_E,Semelparous,S1,S1_15,0,Cold stratified,5/1/23,7
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,4/26/23,2
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,4/28/23,4
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,4/28/23,4
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,5/1/23,7
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,5/1/23,7
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,5/1/23,7
+58,58_A,58_A_B,Iteroparous,I3,I3_1,-0.5,Cold stratified,5/1/23,7
+58,58_A,58_A_E,Semelparous,S2,S2_3,-1,Not cold stratified,5/10/23,16
+58,58_B,58_B_B,Iteroparous,I2,I2_12,-1,Not cold stratified,5/3/23,9
+58,58_B,58_B_B,Iteroparous,I2,I2_12,-1,Not cold stratified,5/8/23,14
+58,58_B,58_B_B,Iteroparous,I2,I2_12,-1,Not cold stratified,5/8/23,14
+58,58_B,58_B_B,Iteroparous,I2,I2_12,-1,Not cold stratified,5/12/23,18
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,4/26/23,2
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,4/26/23,2
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,4/26/23,2
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,4/26/23,2
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,4/26/23,2
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,4/26/23,2
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,5/1/23,7
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,5/5/23,11
+58,58_B,58_B_D,Iteroparous,I1,I1_6,0,Cold stratified,5/8/23,14
+59,59_A,59_A_C,Semelparous,S1,S1_2,-0.5,Cold stratified,5/1/23,7
+59,59_A,59_A_D,Iteroparous,I3,I3_10,-0.5,Not cold stratified,5/1/23,7
+59,59_A,59_A_D,Iteroparous,I3,I3_10,-0.5,Not cold stratified,5/1/23,7
+59,59_A,59_A_D,Iteroparous,I3,I3_10,-0.5,Not cold stratified,5/3/23,9
+59,59_A,59_A_D,Iteroparous,I3,I3_10,-0.5,Not cold stratified,5/10/23,16
+59,59_B,59_B_B,Iteroparous,I1,I1_8,-0.5,Cold stratified,4/26/23,2
+59,59_B,59_B_B,Iteroparous,I1,I1_8,-0.5,Cold stratified,4/26/23,2
+59,59_B,59_B_B,Iteroparous,I1,I1_8,-0.5,Cold stratified,4/28/23,4
+59,59_B,59_B_B,Iteroparous,I1,I1_8,-0.5,Cold stratified,4/28/23,4
+59,59_B,59_B_B,Iteroparous,I1,I1_8,-0.5,Cold stratified,4/28/23,4
+59,59_B,59_B_B,Iteroparous,I1,I1_8,-0.5,Cold stratified,5/10/23,16
+6,6_A,6_A_B,Iteroparous,I3,I3_6,-0.5,Cold stratified,4/28/23,4
+6,6_A,6_A_B,Iteroparous,I3,I3_6,-0.5,Cold stratified,5/5/23,11
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_C,Semelparous,S2,S2_2,0,Cold stratified,4/26/23,2
+6,6_A,6_A_E,Iteroparous,I2,I2_4,-1,Cold stratified,5/3/23,9
+6,6_A,6_A_E,Iteroparous,I2,I2_4,-1,Cold stratified,5/10/23,16
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,4/28/23,4
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,4/28/23,4
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,5/1/23,7
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,5/1/23,7
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,5/1/23,7
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,5/1/23,7
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,5/1/23,7
+6,6_B,6_B_C,Iteroparous,I1,I1_4,-0.5,Not cold stratified,5/8/23,14
+60,60_A,60_A_D,Iteroparous,I1,I1_18,-1,Cold stratified,4/26/23,2
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,4/28/23,4
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/1/23,7
+60,60_B,60_B_B,Iteroparous,I2,I2_10,0,Not cold stratified,5/12/23,18
+60,60_B,60_B_C,Semelparous,S1,S1_12,-0.5,Cold stratified,5/1/23,7
+60,60_B,60_B_C,Semelparous,S1,S1_12,-0.5,Cold stratified,5/1/23,7
+60,60_B,60_B_C,Semelparous,S1,S1_12,-0.5,Cold stratified,5/1/23,7
+60,60_B,60_B_C,Semelparous,S1,S1_12,-0.5,Cold stratified,5/3/23,9
+60,60_B,60_B_F,Semelparous,S2,S2_8,-0.5,Cold stratified,4/28/23,4
+7,7_A,7_A_B,Iteroparous,I3,I3_6,-0.5,Not cold stratified,5/3/23,9
+7,7_A,7_A_B,Iteroparous,I3,I3_6,-0.5,Not cold stratified,5/12/23,18
+7,7_A,7_A_E,Semelparous,S3,S3_20,0,Not cold stratified,5/1/23,7
+7,7_A,7_A_F,Semelparous,S2,S2_6,-0.5,Cold stratified,4/28/23,4
+7,7_A,7_A_F,Semelparous,S2,S2_6,-0.5,Cold stratified,4/28/23,4
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/26/23,2
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/26/23,2
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/28/23,4
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/28/23,4
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/28/23,4
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/28/23,4
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/28/23,4
+7,7_B,7_B_B,Iteroparous,I2,I2_4,0,Cold stratified,4/28/23,4
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+7,7_B,7_B_E,Semelparous,S1,S1_28,0,Cold stratified,4/26/23,2
+8,8_A,8_A_D,Iteroparous,I1,I1_20,0,Cold stratified,4/26/23,2
+8,8_A,8_A_D,Iteroparous,I1,I1_20,0,Cold stratified,4/26/23,2
+8,8_A,8_A_D,Iteroparous,I1,I1_20,0,Cold stratified,4/28/23,4
+8,8_A,8_A_D,Iteroparous,I1,I1_20,0,Cold stratified,4/28/23,4
+8,8_A,8_A_D,Iteroparous,I1,I1_20,0,Cold stratified,5/8/23,14
+8,8_A,8_A_D,Iteroparous,I1,I1_20,0,Cold stratified,5/8/23,14
+8,8_B,8_B_B,Iteroparous,I3,I3_6,0,Cold stratified,4/28/23,4
+8,8_B,8_B_B,Iteroparous,I3,I3_6,0,Cold stratified,4/28/23,4
+8,8_B,8_B_B,Iteroparous,I3,I3_6,0,Cold stratified,5/1/23,7
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/26/23,2
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/26/23,2
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/26/23,2
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/26/23,2
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/26/23,2
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/28/23,4
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/28/23,4
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/28/23,4
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/28/23,4
+8,8_B,8_B_D,Iteroparous,I2,I2_5,0,Cold stratified,4/28/23,4
+8,8_B,8_B_E,Semelparous,S2,S2_4,0,Cold stratified,4/28/23,4
+8,8_B,8_B_E,Semelparous,S2,S2_4,0,Cold stratified,4/28/23,4
+8,8_B,8_B_E,Semelparous,S2,S2_4,0,Cold stratified,5/5/23,11
+8,8_B,8_B_E,Semelparous,S2,S2_4,0,Cold stratified,5/5/23,11
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,4/28/23,4
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,4/28/23,4
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,4/28/23,4
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,4/28/23,4
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,4/28/23,4
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,4/28/23,4
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,5/1/23,7
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,5/1/23,7
+9,9_A,9_A_A,Iteroparous,I2,I2_7,0,Not cold stratified,5/5/23,11
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/25/23,1
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/25/23,1
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/25/23,1
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/26/23,2
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/26/23,2
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/26/23,2
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/26/23,2
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,4/28/23,4
+9,9_A,9_A_B,Semelparous,S3,S3_16,0,Cold stratified,5/3/23,9
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/25/23,1
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_A,Iteroparous,I1,I1_18,0,Cold stratified,4/26/23,2
+9,9_B,9_B_D,Iteroparous,I3,I3_6,-1,Cold stratified,5/3/23,9
+9,9_B,9_B_F,Semelparous,S2,S2_2,0,Not cold stratified,5/10/23,16
