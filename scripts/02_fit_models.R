@@ -56,5 +56,5 @@ if (file.exists("output/time_fit.RDS")) { #if model fit file already exists
     adapt_delta=.98 #increase adapt_delta reduce divergent transitions
   )
   if (!file.exists("output")) dir.create(file.path("output")) #create output directory if necessary
-  saveRDS(time_fit, "output/time_fit.RDS") #save model fit 
+  saveRDS(time_fit, "output/time_fit.RDS") #save model fit
 }
