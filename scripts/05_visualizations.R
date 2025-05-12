@@ -12,11 +12,11 @@ ecotype_colors <- c("Semelparous"="grey75", "Iteroparous"="grey25")
 
 # Figure 1 ---------------------------------------------------------------------
 ## Wrangle raw data into persistence proportions
-persistence_raw_proportions <- germ_df %>% 
-  group_by(site, seed_family, cold_stratification, water_potential, ecotype) %>% 
+persistence_raw_proportions <- germ_df %>%
+  group_by(site, seed_family, cold_stratification, water_potential, ecotype) %>%
   summarize(p=num_persisting_seeds/num_viable_seeds,
-            .groups="drop") %>% 
-  arrange(cold_stratification) %>% 
+            .groups="drop") %>%
+  arrange(cold_stratification) %>%
   group_by(seed_family, water_potential) %>%
   mutate(
     slope=case_when(
@@ -32,18 +32,16 @@ pdot <- 0.0225
 pscale <- 0.75
 palpha <- .9
 
-## Fig 2A: Persistence proportions for each treatment combo
-fig1A <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype, color=ecotype)) +
+## Fig 1A: Persistence proportions for each treatment combo
+fig1A <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype)) +
   geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
-  stat_halfeye(data=filter(persistence_marg_pred, ecotype=="Semelparous"), alpha=palpha,
-               side="left", normalize="groups", scale=pscale*.75,
-               interval_color=NA, point_color=NA) +
+  stat_slab(data=filter(persistence_marg_pred, ecotype=="Semelparous"), alpha=palpha,
+               side="left", normalize="groups", scale=pscale*.75, color=NA) +
   geom_dots(data=filter(persistence_raw_proportions, ecotype=="Semelparous"), color="black",
             side="left", scale=pscale*.75, binwidth=unit(c(-Inf, pdot*.5), "npc"),
             linewidth=.15, , show.legend=FALSE) +
-  stat_halfeye(data=filter(persistence_marg_pred, ecotype=="Iteroparous"), alpha=palpha,
-               side="right", normalize="groups", scale=pscale*.75,
-               interval_color=NA, point_color=NA) +
+  stat_slab(data=filter(persistence_marg_pred, ecotype=="Iteroparous"), alpha=palpha,
+               side="right", normalize="groups", scale=pscale*.75, , color=NA) +
   geom_dots(data=filter(persistence_raw_proportions, ecotype=="Iteroparous"), color="black",
             side="right", scale=pscale*.75, binwidth=unit(c(-Inf, pdot*.5), "npc"),
             linewidth=.15, show.legend=FALSE) +
@@ -59,75 +57,77 @@ fig1A <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype, color=ecotype)
         axis.title.y=element_text(angle=0, vjust=0.5)
   )
 
-## Fig 2B: Contrasts between ecotypes
+## Fig 1B: Contrasts between ecotypes
 ### Create data.frame for text that will show direction of relationship
 fig1B_text <- data.frame(
-  water_potential=0.75,
-  diff_p=c(-0.38, 0.35),
-  label=c("More Semelparous\nPersistence", "More Iteroparous\nPersistence"),
-  ecotype=factor(c("Semelparous", "Iteroparous"))
+  water_potential=3.8,
+  diff_p=c(-0.65, 0.65),
+  label=c("More\nSemelparous\nPersistence", "More\nIteroparous\nPersistence"),
+  ecotype=factor(c("Semelparous", "Iteroparous")),
+  cold_stratification="Cold stratified"
   )
 ### Create data.frame for arrows that will show direction of relationship
 fig1B_arrow <- data.frame(
-  water_potential=0.75,
-  diff_p=c(-0.7, 0.68),
-  xend=c(-1,1),
-  ecotype=factor(c("Semelparous", "Iteroparous"))
+  water_potential=3.9,
+  diff_p=c(-0.4, 0.4),
+  yend=c(-.9,.9),
+  ecotype=factor(c("Semelparous", "Iteroparous")),
+  cold_stratification="Cold stratified"
 )
 
 ### Find proportions of distribution above and below zero
 fig1B_dist_percents <- persistence_marg_pred %>%
-  arrange(ecotype) %>% 
-  group_by(.draw, cold_stratification, water_potential) %>% 
-  summarize(diff_p=diff(p), .groups="drop") %>% 
+  arrange(ecotype) %>%
+  group_by(.draw, cold_stratification, water_potential) %>%
+  summarize(diff_p=diff(p), .groups="drop") %>%
   group_by(cold_stratification, water_potential) %>%
   summarize(
     above=mean(diff_p>0),
     below=mean(diff_p<0),
     .groups="drop"
-  ) %>% 
-  pivot_longer(cols=c(above, below), names_to="response", values_to="label") %>% 
+  ) %>%
+  pivot_longer(cols=c(above, below), names_to="response", values_to="label") %>%
   mutate(
     water_potential=case_when(
-      water_potential=="-1" ~ 1.15,
-      water_potential=="-0.5" ~ 2.15,
-      water_potential=="0" ~ 3.15
+      water_potential=="-1" ~ 1.08,
+      water_potential=="-0.5" ~ 2.08,
+      water_potential=="0" ~ 3.08
     ),
-    label=paste0(round(label*100, 1), "%"),
-    diff_p=c(0.2, -0.25, 0.2, -0.7, 0.2, -0.7, 0.2, -0.2, 0.3, -0.3, 0.5, -0.2)
+    label=paste0(format(round(label*100, 1), nsmall=1), "%"),
+    label=str_replace(label, " ", ""),
+    diff_p=c(0.15, -0.18, 0.1, -0.8, 0.1, -0.8, 0.15, -0.15, 0.12, -0.12, 0.28, -0.12)
     )
 
-### Plot Fig 2B
+### Plot Fig 1B
 fig1B <- persistence_marg_pred %>%
-  arrange(ecotype) %>% 
-  group_by(.draw, cold_stratification, water_potential) %>% 
-  summarize(diff_p=diff(p), .groups="drop") %>% 
-  ggplot(aes(y=water_potential, x=diff_p)) +
-  geom_hline(yintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
-  geom_vline(xintercept=0, linetype=2, color="black") +
-  stat_eye(aes(fill=after_stat(x>0)), alpha=palpha,
-           side="top", normalize="groups", interval_color=NA, point_color=NA) +
-  geom_text(data=fig1B_dist_percents, aes(label=label), family="serif", size=3, 
+  arrange(ecotype) %>%
+  group_by(.draw, cold_stratification, water_potential) %>%
+  summarize(diff_p=diff(p), .groups="drop") %>%
+  ggplot(aes(x=water_potential, y=diff_p)) +
+  geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
+  geom_hline(yintercept=0, linetype=2, color="black") +
+  stat_slab(aes(fill=after_stat(y>0)), alpha=palpha, normalize="groups") +
+  geom_text(data=fig1B_dist_percents, aes(label=label), family="serif", size=3, hjust=0,
             color=c(ecotype_colors[2], ecotype_colors[1], ecotype_colors[2], "white", ecotype_colors[2], "white",
                     ecotype_colors[2], ecotype_colors[1], "white", "white", ecotype_colors[2], ecotype_colors[1])
             ) +
   geom_text(data=fig1B_text, aes(label=label, color=ecotype), family="serif",
-            size=2, lineheight=.75) +
-  geom_segment(data=fig1B_arrow, aes(xend=xend, color=ecotype),
+            size=2, lineheight=.75, hjust=1) +
+  geom_segment(data=fig1B_arrow, aes(yend=yend, color=ecotype),
                arrow=arrow(length=unit(0.2, "cm"))) +
-  scale_x_continuous(name="Difference in Persistence Proportion between Ecotypes", limits=c(-1,1)) +
-  scale_y_discrete(name="Water\nPotential\n(MPa)") +
+  scale_y_continuous(name="Difference\nbetween\nEcotypes", limits=c(-1,1)) +
+  scale_x_discrete(name="Water Potential (MPa)") +
   scale_fill_manual(values=setNames(ecotype_colors, c(FALSE, TRUE))) +
   scale_color_manual(values=ecotype_colors) +
-  facet_grid(~ cold_stratification) +
+  facet_grid(~ fct_relevel(cold_stratification, "Not cold stratified")) +
   theme(legend.position="none",
         axis.title.y=element_text(angle=0, vjust=0.5))
 
 
-## Fig 2C: Effects of cold stratification
-fig1C_df <- persistence_marg_pred %>% 
-  arrange(cold_stratification) %>% 
-  group_by(.draw, ecotype, water_potential) %>% 
+## Fig 1C: Effects of cold stratification
+fig1C_df <- persistence_marg_pred %>%
+  arrange(cold_stratification) %>%
+  group_by(.draw, ecotype, water_potential) %>%
   summarize(diff_p=diff(p), .groups="drop")
 
 ### Find proportions of distribution above and below zero
@@ -137,8 +137,8 @@ fig1C_dist_percents <- fig1C_df %>%
     above=mean(diff_p>0),
     below=mean(diff_p<0),
     .groups="drop"
-  ) %>% 
-  pivot_longer(cols=c(above, below), names_to="response", values_to="label") %>% 
+  ) %>%
+  pivot_longer(cols=c(above, below), names_to="response", values_to="label") %>%
   mutate(
     label=paste0(format(round(label*100, 1), nsmall=1), "%"),
     label=str_replace(label, "  ", ""),
@@ -162,11 +162,11 @@ fig1C_dist_percents <- fig1C_df %>%
 fig1C_text <- data.frame(
   water_potential=.1,
   diff_p=c(0.65, -0.65),
-  label=c("Increased\nPersistence", "Decreased\nPersistence"),
+  label=c("Stratification\nIncreased\nPersistence", "Stratification\nDecreased\nPersistence"),
   ecotype=factor(c("Semelparous", "Iteroparous"))
 )
 
-### Create data.frame for arrows that will show direction of relationsip
+### Create data.frame for arrows that will show direction of relationship
 fig1C_arrow <- data.frame(
   water_potential=0.075,
   diff_p=c(-0.4, 0.4),
@@ -174,17 +174,15 @@ fig1C_arrow <- data.frame(
   ecotype=factor(c("Semelparous", "Iteroparous"))
   )
 
-### Plot Fig 2C
-fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype, color=ecotype)) +
+### Plot Fig 1C
+fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype)) +
   geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
   geom_hline(yintercept=0, linetype=2, color="black") +
-  stat_eye(data=filter(fig1C_df, ecotype=="Semelparous"), alpha=palpha,
-           side="left", scale=pscale*.75, normalize="groups",
-           interval_color=NA, point_color=NA) +
-  stat_eye(data=filter(fig1C_df, ecotype=="Iteroparous"), alpha=palpha,
-           side="right", scale=pscale*.75, normalize="groups",
-           interval_color=NA, point_color=NA) +
-  geom_text(data=fig1C_dist_percents, aes(label=label), hjust=fig1C_dist_percents$hjust, family="serif", size=3, 
+  stat_slab(data=filter(fig1C_df, ecotype=="Semelparous"), alpha=palpha,
+           side="left", scale=pscale*.75, normalize="groups") +
+  stat_slab(data=filter(fig1C_df, ecotype=="Iteroparous"), alpha=palpha,
+           side="right", scale=pscale*.75, normalize="groups") +
+  geom_text(data=fig1C_dist_percents, aes(label=label), hjust=fig1C_dist_percents$hjust, family="serif", size=3,
             color=c(ecotype_colors[1], ecotype_colors[1], ecotype_colors[1], "white", ecotype_colors[1], "white",
                     ecotype_colors[2], ecotype_colors[2], "white", ecotype_colors[2], ecotype_colors[2], ecotype_colors[2])
             ) +
@@ -194,7 +192,7 @@ fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype, color=eco
             size=2, lineheight=.75, hjust=0) +
   scale_y_continuous(name="Effect of Cold\nStratification", limits=c(-1,1)) +
   scale_x_discrete(name="Water Potential (MPa)") +
-  scale_color_manual(aesthetics=c("fill", "color"), values=ecotype_colors) +
+  scale_fill_manual(values=ecotype_colors) +
   theme(legend.key.size=unit(.1, 'cm'),
         legend.text=element_text(size=6, margin=margin(r=30, unit="pt")),
         legend.title=element_blank(),
@@ -203,21 +201,21 @@ fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype, color=eco
         axis.title.y=element_text(angle=0, vjust=0.5)
   )
 
-## Write Figure 2
+## Write Figure 1
 png("figures/figure1.png", width=7, height=8, units="in", res=1500)
-fig1A + fig1B + fig1C + 
+fig1A + fig1B + fig1C +
   plot_layout(ncol=1) +
   plot_annotation(tag_levels="a")
 dev.off()
 
- # Fig 2 -----------------------------------------------------------------------
+# Fig 2 -----------------------------------------------------------------------
 # Within and between population variation in persistence in response to treatments
 ## Wrangle raw data into persistence proportions
-persistence_raw_proportions <- germ_df %>% 
-  group_by(site, seed_family, cold_stratification, water_potential, ecotype) %>% 
+persistence_raw_proportions <- germ_df %>%
+  group_by(site, seed_family, cold_stratification, water_potential, ecotype) %>%
   summarize(p=num_persisting_seeds/num_viable_seeds,
-            .groups="drop") %>% 
-  arrange(cold_stratification) %>% 
+            .groups="drop") %>%
+  arrange(cold_stratification) %>%
   group_by(seed_family, water_potential) %>%
   mutate(
     slope=case_when(
@@ -237,9 +235,9 @@ cold_strat_effect_colors <- c("pos"="red4", "neg"="skyblue3", "zero"="grey50")
 ## Sample spaghetti lines to show model prediction of effects of cold stratification on individual seed families
 draws_sample <- sample(1:max(persistence_cond_pred$.draw), 100)
 persistence_cond_spag <- persistence_cond_pred %>%
-  mutate(water_potential=fct_rev(water_potential)) %>% 
-  arrange(cold_stratification) %>% 
-  group_by(ecotype:water_potential) %>% 
+  mutate(water_potential=fct_rev(water_potential)) %>%
+  arrange(cold_stratification) %>%
+  group_by(ecotype:water_potential) %>%
   group_by(.draw, seed_family, water_potential) %>%
   mutate(
     diff_p=diff(p),
@@ -248,19 +246,17 @@ persistence_cond_spag <- persistence_cond_pred %>%
       diff_p>0 ~ "pos",
       TRUE ~ "zero"
       )
-    ) %>% ungroup() %>% 
+    ) %>% ungroup() %>%
   filter(.draw %in% draws_sample)
 
 ## Plot Fig S1
 fig2 <- ggplot(mapping=aes(x=cold_stratification, y=p, fill=ecotype)) +
-  stat_eye(data=filter(persistence_cond_pred, cold_stratification=="Not cold stratified") %>%
+  stat_slab(data=filter(persistence_cond_pred, cold_stratification=="Not cold stratified") %>%
              mutate(water_potential=fct_rev(water_potential)),
-           side="left", normalize="groups", scale=pscale, 
-           interval_color=NA, point_color=NA, alpha=.8) +
-  stat_eye(data=filter(persistence_cond_pred, cold_stratification=="Cold stratified"),
-           aes(side=cold_stratification), 
-           side="right", normalize="groups", scale=pscale,
-           interval_color=NA, point_color=NA, alpha=.8) +
+           side="left", normalize="groups", scale=pscale, alpha=.8) +
+  stat_slab(data=filter(persistence_cond_pred, cold_stratification=="Cold stratified"),
+           aes(side=cold_stratification),
+           side="right", normalize="groups", scale=pscale, alpha=.8) +
   geom_vline(xintercept=c("Not cold stratified", "Cold stratified"), color="black", linetype=2) +
   geom_line(data=filter(persistence_cond_spag, slope=="pos"), aes(group=paste0(.draw, seed_family)), color=cold_strat_effect_colors["pos"], alpha=.1, linewidth=.1, linetype=1) +
   geom_line(data=filter(persistence_cond_spag, slope=="neg"), aes(group=paste0(.draw, seed_family)), color=cold_strat_effect_colors["neg"], alpha=.1, linewidth=.1, linetype=1) +
@@ -294,8 +290,8 @@ fig2
 dev.off()
 
 # Fig S2 -----------------------------------------------------------------------
-viability_raw_proportions <- germ_df %>% 
-  group_by(site, seed_family, cold_stratification, water_potential, ecotype) %>% 
+viability_raw_proportions <- germ_df %>%
+  group_by(site, seed_family, cold_stratification, water_potential, ecotype) %>%
   summarize(p=num_viable_seeds/(num_viable_seeds+num_inviable_seeds),
             .groups="drop")
 
@@ -307,15 +303,13 @@ s2alpha <- .9
 ## Plot Fig S2
 figS2 <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype, color=ecotype)) +
   geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
-  stat_halfeye(data=filter(viability_pred, ecotype=="Semelparous"), alpha=s2alpha,
-               side="left", normalize="groups", scale=s2scale,
-               interval_color=NA, point_color=NA) +
+  stat_slab(data=filter(viability_pred, ecotype=="Semelparous"), alpha=s2alpha,
+               side="left", normalize="groups", scale=s2scale) +
   geom_dots(data=filter(viability_raw_proportions, ecotype=="Semelparous"), color="black",
             side="left", scale=s2scale, binwidth=unit(c(-Inf, s2dot), "npc"),
             linewidth=.15, , show.legend=FALSE) +
-  stat_halfeye(data=filter(viability_pred, ecotype=="Iteroparous"), alpha=s2alpha,
-               side="right", normalize="groups", scale=s2scale,
-               interval_color=NA, point_color=NA) +
+  stat_slab(data=filter(viability_pred, ecotype=="Iteroparous"), alpha=s2alpha,
+               side="right", normalize="groups", scale=s2scale) +
   geom_dots(data=filter(viability_raw_proportions, ecotype=="Iteroparous"), color="black",
             side="right", scale=s2scale, binwidth=unit(c(-Inf, s2dot), "npc"),
             linewidth=.15, show.legend=FALSE) +
