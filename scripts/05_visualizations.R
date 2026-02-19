@@ -49,11 +49,11 @@ fig1A <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype)) +
   scale_x_discrete(name="Water Potential (MPa)") +
   scale_color_manual(aesthetics=c("fill", "color"), values=ecotype_colors) +
   facet_grid(~ cold_stratification) +
-  theme(legend.key.size=unit(.1, 'cm'),
+  theme(legend.key.size=unit(.2, 'cm'),
         legend.text=element_text(size=6, margin=margin(r=30, unit="pt")),
         legend.title=element_blank(),
         legend.position="inside",
-        legend.position.inside=c(.987,.93),
+        legend.position.inside=c(.986,.93),
         axis.title.y=element_text(angle=0, vjust=0.5)
   )
 
@@ -193,7 +193,7 @@ fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype)) +
   scale_y_continuous(name="Effect of Cold\nStratification", limits=c(-1,1)) +
   scale_x_discrete(name="Water Potential (MPa)") +
   scale_fill_manual(values=ecotype_colors) +
-  theme(legend.key.size=unit(.1, 'cm'),
+  theme(legend.key.size=unit(.2, 'cm'),
         legend.text=element_text(size=6, margin=margin(r=30, unit="pt")),
         legend.title=element_blank(),
         legend.position="inside",
@@ -201,12 +201,14 @@ fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype)) +
         axis.title.y=element_text(angle=0, vjust=0.5)
   )
 
-## Write Figure 1
-png("figures/figure1.png", width=7, height=8, units="in", res=1500)
-fig1A + fig1B + fig1C +
+## Combine Figure 1
+fig1 <- fig1A + fig1B + fig1C +
   plot_layout(ncol=1) +
-  plot_annotation(tag_levels="a")
-dev.off()
+  plot_annotation(tag_levels="A")
+
+## Write Figure 1
+ggsave("figures/figure1.pdf", fig1, width=7.25, height=8, units="in", dpi=600)
+
 
 # Fig 2 -----------------------------------------------------------------------
 # Within and between population variation in persistence in response to treatments
@@ -249,7 +251,7 @@ persistence_cond_spag <- persistence_cond_pred %>%
     ) %>% ungroup() %>%
   filter(.draw %in% draws_sample)
 
-## Plot Fig S1
+## Plot Fig 2
 fig2 <- ggplot(mapping=aes(x=cold_stratification, y=p, fill=ecotype)) +
   stat_slab(data=filter(persistence_cond_pred, cold_stratification=="Not cold stratified") %>%
              mutate(water_potential=fct_rev(water_potential)),
@@ -278,16 +280,14 @@ fig2 <- ggplot(mapping=aes(x=cold_stratification, y=p, fill=ecotype)) +
         legend.text=element_text(size=6),
         legend.title=element_blank(),
         legend.position="inside",
-        legend.position.inside=c(.96,.0319),
-        legend.box.background=element_rect(color="white"),
+        legend.position.inside=c(.9425,.045),
+        legend.box.background=element_rect(fill="white", color=NA),
         axis.title.x=element_blank(),
         axis.ticks.x=element_blank(),
-        axis.text.x=element_text(size=8))
+        axis.text.x=element_text(size=6))
 
-## Write Fig S1
-png("figures/figure2.png", width=10, height=6, units="in", res=1000)
-fig2
-dev.off()
+## Write Fig 2
+ggsave("figures/figure2.pdf", fig2, width=7.25, height=5, units="in", dpi=600)
 
 # Fig S2 -----------------------------------------------------------------------
 viability_raw_proportions <- germ_df %>%
@@ -326,9 +326,7 @@ figS2 <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype, color=ecotype)
   )
 
 ## Write Fig S2
-png("figures/figureS2.png", width=8, height=4, units="in", res=1500)
-figS2
-dev.off()
+png("figures/figureS2.png", figS2, width=8, height=4, units="in", res=600)
 
 # Fig S3 -----------------------------------------------------------------------
 # Timing of germination
@@ -340,9 +338,9 @@ tscale <- 0.5
 # Plot Fig S3
 figS3 <- ggplot(mapping=aes(y=water_potential, x=Day, fill=ecotype)) +
   geom_hline(yintercept=c("0", "-0.5", "-1"), color="black", linetype=2) +
-  stat_slab(data=filter(time_pred, ecotype=="Semelparous"), side="top", normalize="groups", scale=tscale, alpha=palpha) +
+  stat_slab(data=filter(time_cond_pred, ecotype=="Semelparous"), side="top", normalize="groups", scale=tscale, alpha=palpha) +
   geom_dots(data=filter(time_df, ecotype=="Semelparous"), color="black", side="top", scale=tscale, binwidth=unit(c(-Inf, tdot), "npc"),  linewidth=.05) +
-  stat_slab(data=filter(time_pred, ecotype=="Iteroparous"), side="bottom", normalize="groups", scale=tscale, alpha=palpha) +
+  stat_slab(data=filter(time_cond_pred, ecotype=="Iteroparous"), side="bottom", normalize="groups", scale=tscale, alpha=palpha) +
   geom_dots(data=filter(time_df, ecotype=="Iteroparous"), color="black", side="bottom", scale=tscale, binwidth=unit(c(-Inf, tdot), "npc"), linewidth=.05) +
   scale_x_continuous(name="Day of Germination", limits=c(0,25)) +
   scale_y_discrete(name="Water Potential (MPa)") +
@@ -356,6 +354,4 @@ figS3 <- ggplot(mapping=aes(y=water_potential, x=Day, fill=ecotype)) +
   )
 
 # Write Fig S3
-png("figures/figureS3.png", width=4, height=5, units="in", res=1500)
-figS3
-dev.off()
+ggsave("figures/figureS3.png", figS3, width=4, height=5, units="in", res=600)
