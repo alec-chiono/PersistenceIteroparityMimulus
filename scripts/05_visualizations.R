@@ -33,39 +33,66 @@ pscale <- 0.75
 palpha <- .9
 
 ## Fig 1A: Persistence proportions for each treatment combo
-fig1A <- ggplot(mapping=aes(x=water_potential, y=p, fill=ecotype)) +
-  geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
-  stat_slab(data=filter(persistence_marg_pred, ecotype=="Semelparous"), alpha=palpha,
-               side="left", normalize="groups", scale=pscale*.75, color=NA) +
-  geom_dots(data=filter(persistence_raw_proportions, ecotype=="Semelparous"), color="black",
-            side="left", scale=pscale*.75, binwidth=unit(c(-Inf, pdot*.5), "npc"),
-            linewidth=.15, , show.legend=FALSE) +
-  stat_slab(data=filter(persistence_marg_pred, ecotype=="Iteroparous"), alpha=palpha,
-               side="right", normalize="groups", scale=pscale*.75, , color=NA) +
-  geom_dots(data=filter(persistence_raw_proportions, ecotype=="Iteroparous"), color="black",
-            side="right", scale=pscale*.75, binwidth=unit(c(-Inf, pdot*.5), "npc"),
-            linewidth=.15, show.legend=FALSE) +
-  scale_y_continuous(name="Persistence\nProportion", limits=c(0,1)) +
-  scale_x_discrete(name="Water Potential (MPa)") +
-  scale_color_manual(aesthetics=c("fill", "color"), values=ecotype_colors) +
-  facet_grid(~ cold_stratification) +
-  theme(legend.key.size=unit(.2, 'cm'),
-        legend.text=element_text(size=6, margin=margin(r=30, unit="pt")),
-        legend.title=element_blank(),
-        legend.position="inside",
-        legend.position.inside=c(.986,.93),
-        axis.title.y=element_text(angle=0, vjust=0.5)
+fig1A <- ggplot(mapping = aes(x = water_potential, y = p, fill = ecotype)) +
+  geom_vline(xintercept = c("-1", "-0.5", "0"), color = "black", linetype = 2) +
+  stat_slab(
+    data = filter(persistence_marg_pred, ecotype == "Semelparous"),
+    alpha = palpha,
+    side = "left",
+    normalize = "groups",
+    scale = pscale * .75,
+    color = NA
+  ) +
+  geom_dots(
+    data = filter(persistence_raw_proportions, ecotype == "Semelparous"),
+    color = "black",
+    side = "left",
+    scale = pscale * .75,
+    binwidth = unit(c(-Inf, pdot * .5), "npc"),
+    linewidth = .15,
+    ,
+    show.legend = FALSE
+  ) +
+  stat_slab(
+    data = filter(persistence_marg_pred, ecotype == "Iteroparous"),
+    alpha = palpha,
+    side = "right",
+    normalize = "groups",
+    scale = pscale * .75,
+    ,
+    color = NA
+  ) +
+  geom_dots(
+    data = filter(persistence_raw_proportions, ecotype == "Iteroparous"),
+    color = "black",
+    side = "right",
+    scale = pscale * .75,
+    binwidth = unit(c(-Inf, pdot * .5), "npc"),
+    linewidth = .15,
+    show.legend = FALSE
+  ) +
+  scale_y_continuous(name = "Persistence\nproportion", limits = c(0, 1)) +
+  scale_x_discrete(name = "Water potential (MPa)") +
+  scale_color_manual(aesthetics = c("fill", "color"), values = ecotype_colors) +
+  facet_grid(~cold_stratification) +
+  theme(
+    legend.key.size = unit(.2, 'cm'),
+    legend.text = element_text(size = 6, margin = margin(r = 30, unit = "pt")),
+    legend.title = element_blank(),
+    legend.position = "inside",
+    legend.position.inside = c(.986, .93),
+    axis.title.y = element_text(angle = 0, vjust = 0.5)
   )
 
 ## Fig 1B: Contrasts between ecotypes
 ### Create data.frame for text that will show direction of relationship
 fig1B_text <- data.frame(
-  water_potential=3.8,
-  diff_p=c(-0.65, 0.65),
-  label=c("More\nSemelparous\nPersistence", "More\nIteroparous\nPersistence"),
-  ecotype=factor(c("Semelparous", "Iteroparous")),
-  cold_stratification="Cold stratified"
-  )
+  water_potential = 3.8,
+  diff_p = c(-0.65, 0.65),
+  label = c("More\nsemelparous\npersistence", "More\niteroparous\npersistence"),
+  ecotype = factor(c("Semelparous", "Iteroparous")),
+  cold_stratification = "Cold stratified"
+)
 ### Create data.frame for arrows that will show direction of relationship
 fig1B_arrow <- data.frame(
   water_potential=3.9,
@@ -102,26 +129,61 @@ fig1B_dist_percents <- persistence_marg_pred %>%
 fig1B <- persistence_marg_pred %>%
   arrange(ecotype) %>%
   group_by(.draw, cold_stratification, water_potential) %>%
-  summarize(diff_p=diff(p), .groups="drop") %>%
-  ggplot(aes(x=water_potential, y=diff_p)) +
-  geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
-  geom_hline(yintercept=0, linetype=2, color="black") +
-  stat_slab(aes(fill=after_stat(y>0)), alpha=palpha, normalize="groups") +
-  geom_text(data=fig1B_dist_percents, aes(label=label), family="serif", size=3, hjust=0,
-            color=c(ecotype_colors[2], ecotype_colors[1], ecotype_colors[2], "white", ecotype_colors[2], "white",
-                    ecotype_colors[2], ecotype_colors[1], "white", "white", ecotype_colors[2], ecotype_colors[1])
-            ) +
-  geom_text(data=fig1B_text, aes(label=label, color=ecotype), family="serif",
-            size=2, lineheight=.75, hjust=1) +
-  geom_segment(data=fig1B_arrow, aes(yend=yend, color=ecotype),
-               arrow=arrow(length=unit(0.2, "cm"))) +
-  scale_y_continuous(name="Difference\nbetween\nEcotypes", limits=c(-1,1)) +
-  scale_x_discrete(name="Water Potential (MPa)") +
-  scale_fill_manual(values=setNames(ecotype_colors, c(FALSE, TRUE))) +
-  scale_color_manual(values=ecotype_colors) +
+  summarize(diff_p = diff(p), .groups = "drop") %>%
+  ggplot(aes(x = water_potential, y = diff_p)) +
+  geom_vline(xintercept = c("-1", "-0.5", "0"), color = "black", linetype = 2) +
+  geom_hline(yintercept = 0, linetype = 2, color = "black") +
+  stat_slab(
+    aes(fill = after_stat(y > 0)),
+    alpha = palpha,
+    normalize = "groups"
+  ) +
+  geom_text(
+    data = fig1B_dist_percents,
+    aes(label = label),
+    family = "serif",
+    size = 3,
+    hjust = 0,
+    color = c(
+      ecotype_colors[2],
+      ecotype_colors[1],
+      ecotype_colors[2],
+      "white",
+      ecotype_colors[2],
+      "white",
+      ecotype_colors[2],
+      ecotype_colors[1],
+      "white",
+      "white",
+      ecotype_colors[2],
+      ecotype_colors[1]
+    )
+  ) +
+  geom_text(
+    data = fig1B_text,
+    aes(label = label, color = ecotype),
+    family = "serif",
+    size = 2,
+    lineheight = .75,
+    hjust = 1
+  ) +
+  geom_segment(
+    data = fig1B_arrow,
+    aes(yend = yend, color = ecotype),
+    arrow = arrow(length = unit(0.2, "cm"))
+  ) +
+  scale_y_continuous(
+    name = "Difference\nbetween\necotypes",
+    limits = c(-1, 1)
+  ) +
+  scale_x_discrete(name = "Water potential (MPa)") +
+  scale_fill_manual(values = setNames(ecotype_colors, c(FALSE, TRUE))) +
+  scale_color_manual(values = ecotype_colors) +
   facet_grid(~ fct_relevel(cold_stratification, "Not cold stratified")) +
-  theme(legend.position="none",
-        axis.title.y=element_text(angle=0, vjust=0.5))
+  theme(
+    legend.position = "none",
+    axis.title.y = element_text(angle = 0, vjust = 0.5)
+  )
 
 
 ## Fig 1C: Effects of cold stratification
@@ -160,10 +222,13 @@ fig1C_dist_percents <- fig1C_df %>%
 
 ### Create data.frame for text that will show direction of relationships
 fig1C_text <- data.frame(
-  water_potential=.1,
-  diff_p=c(0.65, -0.65),
-  label=c("Stratification\nIncreased\nPersistence", "Stratification\nDecreased\nPersistence"),
-  ecotype=factor(c("Semelparous", "Iteroparous"))
+  water_potential = .1,
+  diff_p = c(0.65, -0.65),
+  label = c(
+    "Stratification\nincreased\npersistence",
+    "Stratification\ndecreased\npersistence"
+  ),
+  ecotype = factor(c("Semelparous", "Iteroparous"))
 )
 
 ### Create data.frame for arrows that will show direction of relationship
@@ -175,30 +240,74 @@ fig1C_arrow <- data.frame(
   )
 
 ### Plot Fig 1C
-fig1C <- ggplot(mapping=aes(y=diff_p, x=water_potential, fill=ecotype)) +
-  geom_vline(xintercept=c("-1", "-0.5", "0"), color="black", linetype=2) +
-  geom_hline(yintercept=0, linetype=2, color="black") +
-  stat_slab(data=filter(fig1C_df, ecotype=="Semelparous"), alpha=palpha,
-           side="left", scale=pscale*.75, normalize="groups") +
-  stat_slab(data=filter(fig1C_df, ecotype=="Iteroparous"), alpha=palpha,
-           side="right", scale=pscale*.75, normalize="groups") +
-  geom_text(data=fig1C_dist_percents, aes(label=label), hjust=fig1C_dist_percents$hjust, family="serif", size=3,
-            color=c(ecotype_colors[1], ecotype_colors[1], ecotype_colors[1], "white", ecotype_colors[1], "white",
-                    ecotype_colors[2], ecotype_colors[2], "white", ecotype_colors[2], ecotype_colors[2], ecotype_colors[2])
-            ) +
-  geom_segment(data=fig1C_arrow, aes(yend=yend), color="black",
-               arrow=arrow(length=unit(0.2, "cm"))) +
-  geom_text(data=fig1C_text, aes(label=label), color="black", family="serif",
-            size=2, lineheight=.75, hjust=0) +
-  scale_y_continuous(name="Effect of Cold\nStratification", limits=c(-1,1)) +
-  scale_x_discrete(name="Water Potential (MPa)") +
-  scale_fill_manual(values=ecotype_colors) +
-  theme(legend.key.size=unit(.2, 'cm'),
-        legend.text=element_text(size=6, margin=margin(r=30, unit="pt")),
-        legend.title=element_blank(),
-        legend.position="inside",
-        legend.position.inside=c(.985,.94),
-        axis.title.y=element_text(angle=0, vjust=0.5)
+fig1C <- ggplot(
+  mapping = aes(y = diff_p, x = water_potential, fill = ecotype)
+) +
+  geom_vline(xintercept = c("-1", "-0.5", "0"), color = "black", linetype = 2) +
+  geom_hline(yintercept = 0, linetype = 2, color = "black") +
+  stat_slab(
+    data = filter(fig1C_df, ecotype == "Semelparous"),
+    alpha = palpha,
+    side = "left",
+    scale = pscale * .75,
+    normalize = "groups"
+  ) +
+  stat_slab(
+    data = filter(fig1C_df, ecotype == "Iteroparous"),
+    alpha = palpha,
+    side = "right",
+    scale = pscale * .75,
+    normalize = "groups"
+  ) +
+  geom_text(
+    data = fig1C_dist_percents,
+    aes(label = label),
+    hjust = fig1C_dist_percents$hjust,
+    family = "serif",
+    size = 3,
+    color = c(
+      ecotype_colors[1],
+      ecotype_colors[1],
+      ecotype_colors[1],
+      "white",
+      ecotype_colors[1],
+      "white",
+      ecotype_colors[2],
+      ecotype_colors[2],
+      "white",
+      ecotype_colors[2],
+      ecotype_colors[2],
+      ecotype_colors[2]
+    )
+  ) +
+  geom_segment(
+    data = fig1C_arrow,
+    aes(yend = yend),
+    color = "black",
+    arrow = arrow(length = unit(0.2, "cm"))
+  ) +
+  geom_text(
+    data = fig1C_text,
+    aes(label = label),
+    color = "black",
+    family = "serif",
+    size = 2,
+    lineheight = .75,
+    hjust = 0
+  ) +
+  scale_y_continuous(
+    name = "Effect of cold\nstratification",
+    limits = c(-1, 1)
+  ) +
+  scale_x_discrete(name = "Water potential (MPa)") +
+  scale_fill_manual(values = ecotype_colors) +
+  theme(
+    legend.key.size = unit(.2, 'cm'),
+    legend.text = element_text(size = 6, margin = margin(r = 30, unit = "pt")),
+    legend.title = element_blank(),
+    legend.position = "inside",
+    legend.position.inside = c(.985, .94),
+    axis.title.y = element_text(angle = 0, vjust = 0.5)
   )
 
 ## Combine Figure 1
@@ -252,39 +361,118 @@ persistence_cond_spag <- persistence_cond_pred %>%
   filter(.draw %in% draws_sample)
 
 ## Plot Fig 2
-fig2 <- ggplot(mapping=aes(x=cold_stratification, y=p, fill=ecotype)) +
-  stat_slab(data=filter(persistence_cond_pred, cold_stratification=="Not cold stratified") %>%
-             mutate(water_potential=fct_rev(water_potential)),
-           side="left", normalize="groups", scale=pscale, alpha=.8) +
-  stat_slab(data=filter(persistence_cond_pred, cold_stratification=="Cold stratified"),
-           aes(side=cold_stratification),
-           side="right", normalize="groups", scale=pscale, alpha=.8) +
-  geom_vline(xintercept=c("Not cold stratified", "Cold stratified"), color="black", linetype=2) +
-  geom_line(data=filter(persistence_cond_spag, slope=="pos"), aes(group=paste0(.draw, seed_family)), color=cold_strat_effect_colors["pos"], alpha=.1, linewidth=.1, linetype=1) +
-  geom_line(data=filter(persistence_cond_spag, slope=="neg"), aes(group=paste0(.draw, seed_family)), color=cold_strat_effect_colors["neg"], alpha=.1, linewidth=.1, linetype=1) +
-  geom_line(data=filter(persistence_cond_spag, slope=="zero"), aes(group=paste0(.draw, seed_family)), color=cold_strat_effect_colors["zero"], alpha=.1, linewidth=.1, linetype=1) +
-  geom_line(data=filter(persistence_raw_proportions, slope=="pos"), aes(group=seed_family), color=cold_strat_effect_colors["pos"], linetype=2) +
-  geom_line(data=filter(persistence_raw_proportions, slope=="neg"), aes(group=seed_family), color=cold_strat_effect_colors["neg"], linetype=2) +
-  geom_line(data=filter(persistence_raw_proportions, slope=="zero"), aes(group=seed_family), color=cold_strat_effect_colors["zero"], linetype=2) +
-  geom_dots(data=filter(persistence_raw_proportions, cold_stratification=="Not cold stratified"),
-            side="left", scale=1.25*pscale, binwidth=unit(c(-Inf, 1.25*pdot), "npc"), overflow="keep",
-            linewidth=.2, color="black") +
-  geom_dots(data=filter(persistence_raw_proportions, cold_stratification=="Cold stratified"),
-            side="right", scale=1.25*pscale, binwidth=unit(c(-Inf, 1.25*pdot), "npc"), overflow="keep",
-            linewidth=.2, color="black") +
-  scale_x_discrete(labels=c("Not cold\nstratified", "Cold\nstratified")) +
-  scale_y_continuous(name="Probability of Persistence", limits=c(0,1)) +
-  scale_fill_manual(values=ecotype_colors) +
-  facet_grid(water_potential ~ site, labeller=labeller(water_potential=water_potential_labeller)) +
-  theme(legend.key.size=unit(.05, 'cm'),
-        legend.text=element_text(size=6),
-        legend.title=element_blank(),
-        legend.position="inside",
-        legend.position.inside=c(.9425,.045),
-        legend.box.background=element_rect(fill="white", color=NA),
-        axis.title.x=element_blank(),
-        axis.ticks.x=element_blank(),
-        axis.text.x=element_text(size=6))
+fig2 <- ggplot(mapping = aes(x = cold_stratification, y = p, fill = ecotype)) +
+  stat_slab(
+    data = filter(
+      persistence_cond_pred,
+      cold_stratification == "Not cold stratified"
+    ) %>%
+      mutate(water_potential = fct_rev(water_potential)),
+    side = "left",
+    normalize = "groups",
+    scale = pscale,
+    alpha = .8
+  ) +
+  stat_slab(
+    data = filter(
+      persistence_cond_pred,
+      cold_stratification == "Cold stratified"
+    ),
+    aes(side = cold_stratification),
+    side = "right",
+    normalize = "groups",
+    scale = pscale,
+    alpha = .8
+  ) +
+  geom_vline(
+    xintercept = c("Not cold stratified", "Cold stratified"),
+    color = "black",
+    linetype = 2
+  ) +
+  geom_line(
+    data = filter(persistence_cond_spag, slope == "pos"),
+    aes(group = paste0(.draw, seed_family)),
+    color = cold_strat_effect_colors["pos"],
+    alpha = .1,
+    linewidth = .1,
+    linetype = 1
+  ) +
+  geom_line(
+    data = filter(persistence_cond_spag, slope == "neg"),
+    aes(group = paste0(.draw, seed_family)),
+    color = cold_strat_effect_colors["neg"],
+    alpha = .1,
+    linewidth = .1,
+    linetype = 1
+  ) +
+  geom_line(
+    data = filter(persistence_cond_spag, slope == "zero"),
+    aes(group = paste0(.draw, seed_family)),
+    color = cold_strat_effect_colors["zero"],
+    alpha = .1,
+    linewidth = .1,
+    linetype = 1
+  ) +
+  geom_line(
+    data = filter(persistence_raw_proportions, slope == "pos"),
+    aes(group = seed_family),
+    color = cold_strat_effect_colors["pos"],
+    linetype = 2
+  ) +
+  geom_line(
+    data = filter(persistence_raw_proportions, slope == "neg"),
+    aes(group = seed_family),
+    color = cold_strat_effect_colors["neg"],
+    linetype = 2
+  ) +
+  geom_line(
+    data = filter(persistence_raw_proportions, slope == "zero"),
+    aes(group = seed_family),
+    color = cold_strat_effect_colors["zero"],
+    linetype = 2
+  ) +
+  geom_dots(
+    data = filter(
+      persistence_raw_proportions,
+      cold_stratification == "Not cold stratified"
+    ),
+    side = "left",
+    scale = 1.25 * pscale,
+    binwidth = unit(c(-Inf, 1.25 * pdot), "npc"),
+    overflow = "keep",
+    linewidth = .2,
+    color = "black"
+  ) +
+  geom_dots(
+    data = filter(
+      persistence_raw_proportions,
+      cold_stratification == "Cold stratified"
+    ),
+    side = "right",
+    scale = 1.25 * pscale,
+    binwidth = unit(c(-Inf, 1.25 * pdot), "npc"),
+    overflow = "keep",
+    linewidth = .2,
+    color = "black"
+  ) +
+  scale_x_discrete(labels = c("Not cold\nstratified", "Cold\nstratified")) +
+  scale_y_continuous(name = "Persitence  proportion", limits = c(0, 1)) +
+  scale_fill_manual(values = ecotype_colors) +
+  facet_grid(
+    water_potential ~ site,
+    labeller = labeller(water_potential = water_potential_labeller)
+  ) +
+  theme(
+    legend.key.size = unit(.05, 'cm'),
+    legend.text = element_text(size = 6),
+    legend.title = element_blank(),
+    legend.position = "inside",
+    legend.position.inside = c(.9425, .045),
+    legend.box.background = element_rect(fill = "white", color = NA),
+    axis.title.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_text(size = 6)
+  )
 
 ## Write Fig 2
 ggsave("figures/figure2.pdf", fig2, width=7.25, height=5, units="in", dpi=600)
