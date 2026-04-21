@@ -456,7 +456,7 @@ fig2 <- ggplot(mapping = aes(x = cold_stratification, y = p, fill = ecotype)) +
     color = "black"
   ) +
   scale_x_discrete(labels = c("Not cold\nstratified", "Cold\nstratified")) +
-  scale_y_continuous(name = "Persitence  proportion", limits = c(0, 1)) +
+  scale_y_continuous(name = "Persistence  proportion", limits = c(0, 1)) +
   scale_fill_manual(values = ecotype_colors) +
   facet_grid(
     water_potential ~ site,
